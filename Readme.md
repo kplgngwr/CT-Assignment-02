@@ -39,6 +39,25 @@ This project is a simple file management tool built using Node.js core modules s
 
 4. Use tools like Postman or curl to interact with the endpoints.
 
+## Testing Using Thunder Client (VS CODE extension)
+
+### Create File
+- **Method**: POST  
+- **URL**: `http://localhost:3000/create?filename=myFile.txt`  
+- **Body**: Select `raw` and enter the content you want to write to the file in the Body.
+
+### Read File
+- **Method**: GET  
+- **URL**: `http://localhost:3000/read?filename=myFile.txt`
+
+### Delete File
+- **Method**: DELETE  
+- **URL**: `http://localhost:3000/delete?filename=myFile.txt`
+
+### List Files
+- **Method**: GET  
+- **URL**: `http://localhost:3000/list`
+
 ## Resources
 
 - [Node.js Documentation](https://nodejs.org/api/modules.html)
