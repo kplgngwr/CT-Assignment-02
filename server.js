@@ -5,7 +5,6 @@ const url = require('url');
 
 const FILES_DIR = path.join(__dirname, 'files');
 
-// Ensure the 'files' directory exists
 if (!fs.existsSync(FILES_DIR)) {
   fs.mkdirSync(FILES_DIR, { recursive: true });
 }
