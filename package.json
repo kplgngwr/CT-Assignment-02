@@ -1,0 +1,17 @@
+{
+  "name": "file-management-tool",
+  "version": "1.0.0",
+  "description": "A simple file management tool using Node.js core modules",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "file-management",
+    "http",
+    "fs"
+  ],
+  "author": "",
+  "license": "ISC"
+}
